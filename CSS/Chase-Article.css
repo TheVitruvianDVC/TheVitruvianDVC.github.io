@@ -1,0 +1,28 @@
+@font-face {
+	font-family: Brushed;
+	src: url("../FONTS/BRUSHED.TTF");
+}
+	.nav-bar {
+		background-color: #512D9D;
+		width: 1900px;
+		height: 95px;
+	}
+
+h1 {
+	letter-spacing: 4px;
+	padding-top: 20px;
+	color: #E46C00;
+	font-family: Brushed;
+	font-size: 60px;
+	text-align: center;
+
+}
+html {
+ background-color: #E2DCEB;	
+}
+body {
+    margin-top: -47px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
