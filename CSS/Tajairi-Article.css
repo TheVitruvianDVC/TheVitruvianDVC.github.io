@@ -2,12 +2,30 @@
 	font-family: Brushed;
 	src: url("../FONTS/BRUSHED.TTF");
 }
+@font-face {
+	font-family: Roboto-Black;
+	src: url("../FONTS/Roboto-Black.ttf");
+}
+@font-face {
+	font-family: Roboto-Bold;
+	src: url("../FONTS/Roboto-Bold.ttf");
+}
+@font-face {
+	font-family: Roboto-Medium;
+	src: url("../FONTS/Roboto-Medium.ttf");
+}
 .nav-bar {
 		background-color: #512D9D;
 		width: 1900px;
 		height: 95px;
 	}
-
+h1 a {
+ color: inherit;
+ text-decoration: none;	
+}
+h1 span:hover {
+ color: #F50057;
+}
 h1 {
 	letter-spacing: 4px;
 	padding-top: 20px;
@@ -15,14 +33,63 @@ h1 {
 	font-family: Brushed;
 	font-size: 60px;
 	text-align: center;
-
+	margin-bottom: 14px;
 }
 html {
  background-color: #E2DCEB;	
+}
+img {
+ width: 1900px;
+ height: 550px;
 }
 body {
     margin-top: -47px;
     margin-right: 0px;
     margin-left: 0px;
     margin-bottom: 0px;
+}
+.Article-Header-Info {
+ margin-right: 465px;
+ margin-left: 465px;
+ text-align: center;
+ width: 1000px;
+ z-index: 1;
+ position: inherit;
+ color: black;
+ font-family: "Roboto-Black";
+
+}
+.Article-Header-Info h2{
+ line-height: 80px;
+ font-size: 50px;
+ margin-top: 0px;	
+ margin-bottom: -15px;
+}
+.Article-Header-Info h3 {
+	font-family: "Roboto-Bold";
+	font-size: 30px;
+}
+.Article-Header-Info h4 {
+	font-family: "Roboto-Bold";
+	font-size: 20px;
+}
+.Article-Header {
+ z-index: -1;
+ position: absolute;
+ width: 1900px; 
+ height:300px;
+ background-color: #F3E5F5;
+}
+.ssk-sticky .ssk-right{ 
+ top: 500px; 
+}
+.Article-Text {
+  font-size: 25px;
+  font-family: "Roboto-Medium";
+  margin-top: 300px;
+  margin-left: 535px;
+  margin-right: 490px;
+}
+.Article-Text-Info p {
+z-index: 0;
 }

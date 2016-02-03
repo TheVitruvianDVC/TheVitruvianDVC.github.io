@@ -36,11 +36,12 @@ body {
 .article-pics-row1 {
 	width: 1900px;
 	height: 480px;
+  margin-left: -6px;
 }
 .article-pics-row1 img {
-	width: 475px;
+	width: 478px;
 	height: 490px;
-	margin-left: -5px;
+	margin-left: -7px;
 }
 #row2 img {
   height: 500px;
@@ -69,7 +70,7 @@ img:hover {
 	position: absolute;
 	top: 88px;
 	height: 150px;
-	width: 470px;
+	width: 478px;
 	opacity: 0;	
 	-webkit-transition: opacity 500ms, background 100ms;
   -moz-transition:opacity 500ms, background 100ms;
@@ -83,8 +84,11 @@ img:hover {
   opacity: 1;
   background: rgba(0, 0, 0, 0.5);
 } 
+#musapic {
+ width: 465px;
+}
 #Chase-Article-Text{
-    left: 468px;
+    left: 462px;
     width: 475px;
     background: rgba(236,64,122,0.9);
     -webkit-transition: opacity 500ms, background 100ms;
@@ -93,8 +97,8 @@ img:hover {
   transition:  opacity 300ms ease-in, background 1s;	
 }
 #Tajairi-Article-Text {
-  left: 943px;
-  width: 475px;
+  left: 937px;
+  width: 478px;
   font-size: 50px;	
   background: rgba(98,0,234,0.9);
     -webkit-transition: opacity 500ms, background 100ms;
@@ -103,8 +107,8 @@ img:hover {
   transition:  opacity 300ms ease-in, background 1s;
 }
 #Peri-Article-Text {
-  left: 1418px;
-  width: 495px;
+  left: 1412px;
+  width: 480px;
   font-size: 50px;	
   background: rgba(77,208,225,0.9);
     -webkit-transition: opacity 500ms, background 100ms;
@@ -125,6 +129,7 @@ background: rgba(118,255,30,.9);
 }
 #Cayland-Article-Text {
 top: 568px;
+width: 463px;
 line-height: 125px;
 background: rgba(63,81,181,0.9);
     -webkit-transition: opacity 500ms, background 100ms;
@@ -135,7 +140,7 @@ background: rgba(63,81,181,0.9);
 #Donyaih-Article-Text {
 width: 475px;
 top: 568px;	
-left: 468px;
+left: 462px;
 line-height: 125px;
 background: rgba(244,67,54,0.9);
     -webkit-transition: opacity 500ms, background 100ms;
@@ -145,7 +150,7 @@ background: rgba(244,67,54,0.9);
 }
 #Adrian-Article-Text {
 top: 568px;
-left: 943px;
+left: 937px;
 width: 475px;
 line-height: 125px;
 background: rgba(33,150,243,0.9);
