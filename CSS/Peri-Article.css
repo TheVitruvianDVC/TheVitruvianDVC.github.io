@@ -84,6 +84,7 @@ body {
  top: 500px; 
 }
 .Article-Text {
+  line-height: 37px;
   font-size: 25px;
   font-family: "Roboto-Medium";
   margin-top: 300px;
@@ -92,4 +93,12 @@ body {
 }
 .Article-Text-Info p {
 z-index: 0;
+}
+a:hover {
+ text-decoration: none;
+}
+.Article-Text img {
+	width:400px; 
+	margin-left:250px;
+	 height:400px
 }

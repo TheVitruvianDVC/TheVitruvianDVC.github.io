@@ -11,7 +11,10 @@
 		width: 1900px;
 		height: 95px;
 	}
-
+#milespic {
+ margin-right: -4px;
+ margin-left: -4px;
+}
 h1 {
 	letter-spacing: 4px;
 	padding-top: 20px;
@@ -118,7 +121,7 @@ img:hover {
 }
 #Miles-Article-Text {
 top: 568px;
-left: 1417px;
+left: 1410px;
 width: 495px;
 line-height: 125px;
 background: rgba(118,255,30,.9);

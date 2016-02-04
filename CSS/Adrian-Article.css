@@ -93,3 +93,11 @@ body {
 .Article-Text-Info p {
 z-index: 0;
 }
+a:hover {
+ text-decoration: none;
+}
+.Article-Text img {
+	width:400px; 
+	margin-left:250px;
+	 height:400px
+}

@@ -57,6 +57,7 @@ body {
  position: inherit;
  color: black;
  font-family: "Roboto-Black";
+ margin-top: 15px;
 
 }
 .Article-Header-Info h2{
@@ -84,12 +85,24 @@ body {
  top: 500px; 
 }
 .Article-Text {
+  line-height: 37px;
   font-size: 25px;
   font-family: "Roboto-Medium";
   margin-top: 300px;
-  margin-left: 450px;
-  margin-right: 400px;
+  margin-left: 535px;
+  margin-right: 490px;
 }
 .Article-Text-Info p {
 z-index: 0;
+}
+.Article-Text h1 {
+ line-height: 100px;
+}
+a:hover {
+ text-decoration: none;
+}
+.Article-Text img {
+	width:400px; 
+	margin-left:250px;
+	 height:400px
 }

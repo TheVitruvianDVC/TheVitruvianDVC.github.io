@@ -57,6 +57,7 @@ body {
  position: inherit;
  color: black;
  font-family: "Roboto-Black";
+ margin-top: 50px;
 
 }
 .Article-Header-Info h2{
@@ -92,4 +93,43 @@ body {
 }
 .Article-Text-Info p {
 z-index: 0;
+}
+#Cayland-Article-P1 {
+ text-align: center;
+ width: 300px;
+ height: 300px;
+ margin-left: 250px;
+}
+#customers {
+    font-family: "Roboto-Medium", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #4CAF50;
+    color: white;
+}
+p {
+ line-height: 37px;
+}
+a:hover {
+ text-decoration: none;
+}
+.Article-Text img {
+	width:400px; 
+	margin-left:250px;
+	 height:400px
 }
