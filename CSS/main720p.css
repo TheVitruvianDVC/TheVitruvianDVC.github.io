@@ -1,0 +1,186 @@
+@font-face {
+	font-family: Brushed;
+	src: url("../FONTS/BRUSHED.TTF");
+}
+@font-face {
+	font-family: Bebas;
+	src: url("../FONTS/BEBAS___.TTF");
+}
+	.nav-bar {
+		background-color: #512D9D;
+		width: 1px;
+		height: 95px;
+	}
+#milespic {
+ margin-right: -4px;
+ margin-left: -4px;
+}
+h1 {
+	letter-spacing: 4px;
+	padding-top: 20px;
+	color: #E46C00;
+	font-family: Brushed;
+	font-size: 60px;
+	text-align: center;
+
+}
+h1 span:hover {
+ color: #F50057;
+}
+html {
+ background-color: #E2DCEB;	
+}
+body {
+    margin-top: -47px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+.article-pics-row1 {
+	width: 50%;
+	height: 480px;
+  margin-left: -6px;
+}
+.article-pics-row1 img {
+	width: 478px;
+	height: 490px;
+	margin-left: -7px;
+}
+#row2 img {
+  height: 500px;
+}
+#adrianpic + #caylandpic{
+ padding-left: 5px;	
+}
+img:hover {
+ opacity: 0.3
+}
+#tajairipic {
+ padding-right: 3px;	
+}
+.Article-Text {
+ background: rgba(56,142,60,0.9);	
+ color: white;
+ cursor: pointer;
+ display: table;
+ font-family: "Bebas";
+ font-size: 45px;
+ letter-spacing: 3px;
+ line-height: 120px;
+ text-align: center;	
+ cursor: pointer;
+	left: 0;
+	position: absolute;
+	top: 88px;
+	height: 150px;
+	width: 478px;
+	opacity: 0;	
+	-webkit-transition: opacity 500ms, background 100ms;
+  -moz-transition:opacity 500ms, background 100ms;
+  -o-transition:  opacity 500ms, background 100ms;
+  transition:  opacity 300ms ease-in, background 1s;
+}
+#Author-name {
+ 
+}
+ .Article-Text:hover {
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.5);
+} 
+#musapic {
+ width: 465px;
+}
+#Chase-Article-Text{
+    left: 462px;
+    width: 475px;
+    background: rgba(236,64,122,0.9);
+    -webkit-transition: opacity 500ms, background 100ms;
+  -moz-transition:opacity 500ms, background 100ms;
+  -o-transition:  opacity 500ms, background 100ms;
+  transition:  opacity 300ms ease-in, background 1s;	
+}
+#Tajairi-Article-Text {
+  left: 937px;
+  width: 478px;
+  font-size: 50px;	
+  background: rgba(98,0,234,0.9);
+    -webkit-transition: opacity 500ms, background 100ms;
+  -moz-transition:opacity 500ms, background 100ms;
+  -o-transition:  opacity 500ms, background 100ms;
+  transition:  opacity 300ms ease-in, background 1s;
+}
+#Peri-Article-Text {
+  left: 1412px;
+  width: 480px;
+  font-size: 50px;	
+  background: rgba(77,208,225,0.9);
+    -webkit-transition: opacity 500ms, background 100ms;
+  -moz-transition:opacity 500ms, background 100ms;
+  -o-transition:  opacity 500ms, background 100ms;
+  transition:  opacity 300ms ease-in, background 1s;
+}
+#Miles-Article-Text {
+top: 568px;
+left: 1410px;
+width: 495px;
+line-height: 125px;
+background: rgba(118,255,30,.9);
+    -webkit-transition: opacity 500ms, background 100ms;
+  -moz-transition:opacity 500ms, background 100ms;
+  -o-transition:  opacity 500ms, background 100ms;
+  transition:  opacity 300ms ease-in, background 1s;
+}
+#Cayland-Article-Text {
+top: 568px;
+width: 463px;
+line-height: 125px;
+background: rgba(63,81,181,0.9);
+    -webkit-transition: opacity 500ms, background 100ms;
+  -moz-transition:opacity 500ms, background 100ms;
+  -o-transition:  opacity 500ms, background 100ms;
+  transition:  opacity 300ms ease-in, background 1s;
+}
+#Donyaih-Article-Text {
+width: 475px;
+top: 568px;	
+left: 462px;
+line-height: 125px;
+background: rgba(244,67,54,0.9);
+    -webkit-transition: opacity 500ms, background 100ms;
+  -moz-transition:opacity 500ms, background 100ms;
+  -o-transition:  opacity 500ms, background 100ms;
+  transition:  opacity 300ms ease-in, background 1s;
+}
+#Adrian-Article-Text {
+top: 568px;
+left: 937px;
+width: 475px;
+line-height: 125px;
+background: rgba(33,150,243,0.9);
+    -webkit-transition: opacity 500ms, background 100ms;
+  -moz-transition:opacity 500ms, background 100ms;
+  -o-transition:  opacity 500ms, background 100ms;
+  transition:  opacity 300ms ease-in, background 1s;
+}
+#Tajairi-Article-Text:hover {
+  background: rgba(0, 0, 0, 0.5);
+} 
+#Chase-Article-Text:hover {
+	background: rgba(0, 0, 0, 0.5);
+}
+#Peri-Article-Text:hover  {
+	background: rgba(0, 0, 0, 0.5);
+}
+
+#Cayland-Article-Text:hover {
+ background: rgba(0, 0, 0, 0.5);
+}
+#Donyaih-Article-Text:hover {
+ background: rgba(0, 0, 0, 0.5);
+}
+#Adrian-Article-Text:hover {
+ background: rgba(0, 0, 0, 0.5);
+}
+#Miles-Article-Text:hover {
+ background: rgba(0, 0, 0, 0.5);
+}
