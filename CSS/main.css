@@ -1,6 +1,6 @@
 @font-face {
-	font-family: Brushed;
-	src: url("../FONTS/BRUSHED.TTF");
+	font-family: Exodus;
+	src: url("../FONTS/Exodus-PersonalUse-Striped.OTF");
 }
 @font-face {
 	font-family: Bebas;
@@ -8,19 +8,32 @@
 }
 	.nav-bar {
 		background-color: #512D9D;
-		width: 1900px;
+		width: 100%;
 		height: 95px;
+    z-index: 0;
 	}
 #milespic {
  margin-right: -4px;
  margin-left: -4px;
 }
+#Hamburger {
+margin-top: 23px;
+margin-left: 70px;
+width: 56px;
+height: 54px;
+z-index: 1;
+position: absolute;
+}
+#Hamburger:hover {
+  opacity: .8;
+  cursor: pointer;
+}
 h1 {
 	letter-spacing: 4px;
-	padding-top: 20px;
+	padding-top: 0px;
 	color: #E46C00;
-	font-family: Brushed;
-	font-size: 60px;
+	font-family: Exodus;
+	font-size: 70px;
 	text-align: center;
 
 }
@@ -37,7 +50,7 @@ body {
     margin-bottom: 0px;
 }
 .article-pics-row1 {
-	width: 1900px;
+	width: 100%;
 	height: 480px;
   margin-left: -6px;
 }
@@ -80,14 +93,11 @@ img:hover {
   -o-transition:  opacity 500ms, background 100ms;
   transition:  opacity 300ms ease-in, background 1s;
 }
-#Author-name {
- 
-}
  .Article-Text:hover {
   opacity: 1;
   background: rgba(0, 0, 0, 0.5);
 } 
-#musapic {
+.Musa-Article-Text {
  width: 465px;
 }
 #Chase-Article-Text{
@@ -184,6 +194,174 @@ background: rgba(33,150,243,0.9);
 #Miles-Article-Text:hover {
  background: rgba(0, 0, 0, 0.5);
 }
+
+/* The Overlay (background) */
+.Overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */    
+    height: 0;
+    width: 100%;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 88px;
+    background-color: rgb(228,108,0); /*Orange fallback color */
+    background-color: rgba(228,108,0 0.9); /* Orange w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.Overlay-content {
+  font-size: 6.8em;
+    font-family: Exodus;
+    position: relative;
+    height: 100%; /* 100% width */
+    text-decoration: none;
+    
+}
+
+/* The navigation links inside the overlay */
+.Overlay a {
+    text-decoration: none;
+    color: #512D9D;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.Overlay a:hover, .overlay a:focus {
+    background: #512D9D;
+    color:#E46C00;
+}
+
+/* Position the close button (top right corner) */
+.closebtn {
+    position: absolute;
+    z-index: 2;
+    right: 45px;
+    font-size: 70px !important; /* Override the font-size specified earlier (36px) for all navigation links */
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .closebtn {
+        font-size: 40px !important;
+        top: 15px;
+        right: 35px;
+    }
+}
+#Team {
+padding-top: 20%;
+padding-left: 15.1%;
+float: right;
+padding-right: 16%;
+padding-bottom: 20%;
+
+
+}
+#Espanol {
+padding-left: 5%;
+padding-right: 15%;
+float: left;
+padding-top: 20%;
+padding-bottom: 20%;
+}
+/* When the width of the screen is less than 1400px, the website will adapt aka Chromebook ready */
+@media screen and (max-width: 1400px)
+ {
+  #row2 img {
+  height: 500px;
+}
+.Article-Text {
+background: rgba(56,142,60,0.9);
+    color: white;
+    cursor: pointer;
+    display: table;
+    font-family: "Bebas";
+    font-size: 39.8px;
+    letter-spacing: 3px;
+    line-height: 84px;
+     font-size: 31px;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    top: 95px;
+    width: inherit;
+    opacity: 0;
+}
+.article-pics-row1 {
+  width: 100%;
+  height: 334px;
+  margin-left: -6px;
+}
+.article-pics-row1 img {
+  width: 341px;
+  height: 334px;
+  margin-left: -7px;
+}
+#row2 img {
+  height: 344px;
+}
+#Chase-Article-Text {
+      left: 325px;
+    width: 338px;
+}
+#Musa-Article-Text {
+width: 325px;
+font-size: 31px;
+}
+
+#Tajairi-Article-Text {
+ left: 662px;
+ width: 342px;
+ font-size: 31px;
+}
+#PeriPic {
+width:339px;
+}
+#Peri-Article-Text {
+ left: 1005px;
+  width: 342px;
+  font-size: 31px;
+}
+#Cayland-Article-Text {
+top: 429px; 
+line-height: 86px;
+width: 325px;
+  font-size: 31px;
+}
+#Donyaih-Article-Text {
+top: 429px;
+left: 325px;
+line-height: 86px;
+width: 338px;
+  font-size: 31px;
+}
+#Adrian-Article-Text {
+top: 429px;
+left: 662px;
+line-height: 86px;
+width: 342px;
+ font-size: 31px;
+}
+#Miles-Article-Text {
+top: 429px;
+line-height: 86px;
+left: 1005px;
+  width: 342px;
+  font-size: 31px;
+}
+#Espanol {
+padding-left: 5%;
+padding-right: 5.08%;
+}
+#Team {
+padding-left: 6%;
+padding-right: 15%;
+}
+
+
 
 
   

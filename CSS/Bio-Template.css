@@ -3,32 +3,26 @@
 	src: url("../FONTS/BRUSHED.TTF");
 }
 @font-face {
-	font-family: Roboto-Black;
-	src: url("../FONTS/Roboto-Black.ttf");
-}
-@font-face {
-	font-family: Roboto-Bold;
-	src: url("../FONTS/Roboto-Bold.ttf");
-}
-@font-face {
-	font-family: Roboto-Medium;
-	src: url("../FONTS/Roboto-Medium.ttf");
-}
-@font-face {
-	font-family: Exodus;
-	src: url("../FONTS/Exodus-PersonalUse-Striped.OTF");
-}
-body {
-margin: 0;
+	font-family: Roboto;
+	src: url("../FONTS/Roboto-Regular.ttf");
 }
 .nav-bar {
-		background-color: #512D9D;
-		width: 100%;
-		height: 91px;
-    z-index: 0;
-	}
+	background-color: #512D9D;
+	width: 100%;
+	height: 95px;
+z-index: 0;
+}
+
+h1 {
+	letter-spacing: 4px;
+	padding-top: 20px;
+	color: #E46C00;
+	font-family: Brushed;
+	font-size: 60px;
+	text-align: center;
+}
 #Hamburger {
-margin-top: 23px;
+margin-top: 28px;
 margin-left: 70px;
 width: 56px;
 height: 54px;
@@ -40,19 +34,13 @@ position: absolute;
   cursor: pointer;
 }
 h1 {
-	margin-left: 3%;
-	margin: auto;
 	letter-spacing: 4px;
-	padding-top: 0px;
+	padding-top: 20px;
 	color: #E46C00;
-	font-family: Exodus;
-	font-size: 70px;
+	font-family: Brushed;
+	font-size: 60px;
 	text-align: center;
 
-}
-h1 a {
-	color: #E46C00;
- text-decoration: none;
 }
 h1 span:hover {
  color: #F50057;
@@ -60,69 +48,14 @@ h1 span:hover {
 html {
  background-color: #E2DCEB;	
 }
-img {
- width: 100%;
- height: 550px;
+
+body {
+    margin-top: -47px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
 }
 
-.Article-Header-Info {
- margin-right: 465px;
- margin-left: 465px;
- text-align: center;
- width: 1000px;
- z-index: 1;
- position: inherit;
- color: black;
- font-family: "Roboto-Black";
- margin-top: 15px;
-
-}
-.Article-Header-Info h2{
- line-height: 80px;
- font-size: 50px;
- margin-top: 0px;	
- margin-bottom: -15px;
-}
-.Article-Header-Info h3 {
-	font-family: "Roboto-Bold";
-	font-size: 30px;
-}
-.Article-Header-Info h4 {
-	font-family: "Roboto-Bold";
-	font-size: 20px;
-}
-.Article-Header {
- z-index: -1;
- position: absolute;
- width: 100%; 
- height:300px;
- background-color: #F3E5F5;
-}
-.ssk-sticky .ssk-right{ 
- top: 500px; 
-}
-.Article-Text {
-  line-height: 37px;
-  font-size: 25px;
-  font-family: "Roboto-Medium";
-  margin-top: 300px;
-  margin-left: 535px;
-  margin-right: 490px;
-}
-.Article-Text-Info p {
-z-index: 0;
-}
-.Article-Text h1 {
- line-height: 100px;
-}
-a:hover {
- text-decoration: none;
-}
-.Article-Text img {
-	width:400px; 
-	margin-left:250px;
-	 height:400px
-}
 /* The Overlay (background) */
 .Overlay {
     /* Height & width depends on how you want to reveal the overlay (see JS below) */    
@@ -140,8 +73,8 @@ a:hover {
 
 /* Position the content inside the overlay */
 .Overlay-content {
-  font-size: 6.8em;
-    font-family: Exodus;
+  font-size: 10em;
+    font-family: Brushed;
     position: relative;
     height: 100%; /* 100% width */
     text-decoration: none;
@@ -186,38 +119,56 @@ float: right;
 padding-right: 16%;
 padding-bottom: 20%;
 
+
 }
 #Home {
-padding-left: 10%;
- padding-right: 20%;
+padding-left: 15%;
+padding-right: 15%;
 float: left;
 padding-top: 20%;
 padding-bottom: 20%;
 }
-@media screen and (max-width: 1400px)
- {
-
-  .Article-Header-Info {
- margin-right: 265px;
- margin-left: 225px;
+#Photo {
+width: 650px;
+height: 480px;	
+}
+.Bio-Info {
+font-size: 75px;
+height: 350px;
+width: 650px;
+ font-family: Roboto;
  text-align: center;
- width: 1000px;
-  }
-  .Article-Text img {
-  	margin-left: 24%;
-  }
-  .Article-Text {
-  	margin-left: 335px;
-  margin-right: 290px;
-  }
-  #Team {
-padding-left: 6%;
-padding-right: 15.1%;
-
+}
+.Bio-Info p {
+    margin-bottom: 0px;
+    margin-top: 0px;
 
 }
-#Home {
-padding-left: 5%;
-padding-right: 18%;
+.Bio-Info ul {
+
+margin-top: 0px;
+padding-left: 125px;
+font-size: 30px;
+line-height: 200%;
+text-align: left;
 }
+.col-md-4 {
+padding:0;
+margin-right: 1%;
+}
+#Bio-Story.col-md-4 {
+margin-right: 5%;
+}
+.Bio-Story {
+text-align: center;
+ margin-right: 5%;
+ font-family: Roboto;
+ font-size: 42px;
+}
+.Bio-Story {
+ margin: 0 0 100px 83px;
+}
+.Bio-Articles img {
+width: 475px;
+height: 250px;
 }

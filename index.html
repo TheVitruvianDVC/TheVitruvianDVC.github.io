@@ -1,18 +1,29 @@
 <!doctype html>
 <html lang="en">
   <link rel="stylesheet" type="text/css" href="CSS/main.css">
+ <script type="text/javascript" src="JAVASCRIPT/btn.js"></script>
       <title> The Vitruvian </title>
       	   	<div class="nav-bar">
-      	
-      	 		<h1>  <span> The Vitruvian </span></h1>
+                  <div id="myNav" class="Overlay">
 
+  <!-- Button to close the overlay navigation -->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                  <div class="Overlay-content">
+                  <a id="Espanol" href="HTML/Adrian-Article.html"> Espanol </a>
+                  <a id="Team"href="HTML/Musa-Article.html"> Team </a>
+                  </div>
+                        </div>
+                         <img id ="Hamburger"src="IMAGES/Hamburger-Menu.png" onclick="openNav()"/>
+      	 		<h1 contenteditable="true">  <span> The Vitruvian </span></h1>
       	    </div>
+
 
       	   	<div class="article-pics-row1">
       	   		
       	   		<a href="HTML/Musa-Article.html">
       	   								<img src="IMAGES/Musa_Article_Homepagepic.jpg">
-      	   								<span id="musapic" class="Article-Text"> <span>  Syrian Refugee Dilemna  <br> <br>
+      	   								<span id="Musa-Article-Text" class="Article-Text"> <span>  Syrian Refugee Dilemna  <br> <br>
       	   								By Musa Alghweir </span></span>
       	   			
       	   			</a>
