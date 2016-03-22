@@ -84,9 +84,9 @@ img:hover {
  cursor: pointer;
 	left: 0;
 	position: absolute;
-	top: 88px;
+top: 95px;
 	height: 150px;
-	width: 478px;
+	width: 463px;
 	opacity: 0;	
 	-webkit-transition: opacity 500ms, background 100ms;
   -moz-transition:opacity 500ms, background 100ms;
@@ -110,6 +110,7 @@ img:hover {
   transition:  opacity 300ms ease-in, background 1s;	
 }
 #Tajairi-Article-Text {
+ line-height: 96px;
   left: 937px;
   width: 478px;
   font-size: 50px;	
@@ -130,10 +131,10 @@ img:hover {
   transition:  opacity 300ms ease-in, background 1s;
 }
 #Miles-Article-Text {
-top: 568px;
+top: 575px;
 left: 1410px;
 width: 495px;
-line-height: 125px;
+line-height: 175px;
 background: rgba(118,255,30,.9);
     -webkit-transition: opacity 500ms, background 100ms;
   -moz-transition:opacity 500ms, background 100ms;
@@ -141,7 +142,7 @@ background: rgba(118,255,30,.9);
   transition:  opacity 300ms ease-in, background 1s;
 }
 #Cayland-Article-Text {
-top: 568px;
+top: 575px;
 width: 463px;
 line-height: 125px;
 background: rgba(63,81,181,0.9);
@@ -152,7 +153,7 @@ background: rgba(63,81,181,0.9);
 }
 #Donyaih-Article-Text {
 width: 475px;
-top: 568px;	
+top: 575px;
 left: 462px;
 line-height: 125px;
 background: rgba(244,67,54,0.9);
@@ -162,9 +163,9 @@ background: rgba(244,67,54,0.9);
   transition:  opacity 300ms ease-in, background 1s;
 }
 #Adrian-Article-Text {
-top: 568px;
+top: 575px;
 left: 937px;
-width: 475px;
+width: 479px;
 line-height: 125px;
 background: rgba(33,150,243,0.9);
     -webkit-transition: opacity 500ms, background 100ms;

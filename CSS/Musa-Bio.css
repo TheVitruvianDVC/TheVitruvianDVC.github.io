@@ -1,0 +1,167 @@
+@font-face {
+	font-family: Brushed;
+	src: url("../FONTS/BRUSHED.TTF");
+}
+@font-face {
+	font-family: Roboto;
+	src: url("../FONTS/Roboto-Regular.ttf");
+}
+@font-face {
+    font-family: Exodus;
+    src: url("../FONTS/Exodus.otf");
+}
+/* This code is describing the navigation bar, the dimensions of it, and its background color. */
+.nav-bar {
+	background-color: #512D9D;
+	width: 100%;
+	height: 95px;
+z-index: 0;
+}
+
+h1 {
+	letter-spacing: 4px;
+	padding-top: 20px;
+	color: #E46C00;
+	font-family: Exodus;
+	font-size: 60px;
+	text-align: center;
+}
+/* This code describes the hamburger menu and where it is positioned. */
+#Hamburger {
+margin-top: 28px;
+margin-left: 70px;
+width: 56px;
+height: 54px;
+z-index: 1;
+position: absolute;
+}
+#Hamburger:hover {
+  opacity: .8;
+  cursor: pointer;
+}
+/* This code describes the color, font, font size, and the alignment of the header, which in this case, is the person's name. */
+h1 {
+	letter-spacing: 4px;
+	padding-top: 20px;
+	color: #E46C00;
+	font-family: Exodus;
+	font-size: 60px;
+	text-align: center;
+
+}
+h1 span:hover {
+ color: #F50057;
+}
+/* This code allows you to change the background color of your page. */
+html {
+ background-color: #E2DCEB;	
+}
+
+body {
+    margin-top: -47px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+/* The Overlay (background) */
+.Overlay {
+    /* This code allows you to change the height and width of the overlay(the purple area). This is supplemented by JavaScript. */    
+    height: 0;
+    width: 100%;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 88px;
+    background-color: rgb(228,108,0); /*Orange fallback color */
+    background-color: rgba(228,108,0 0.9); /* Orange w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* The code tells us how the position of the content in the overlay will be. */
+.Overlay-content {
+  font-size: 10em;
+    font-family: Exodus;
+    position: relative;
+    height: 100%; /* 100% width */
+    text-decoration: none;
+    
+}
+
+/* This code says that there will be buttons on the overlay of purple on the bio pages. */
+.Overlay a {
+    text-decoration: none;
+    color: #512D9D;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* This code tells us what will happen when the mouse hovers over the harmburger menu. (It will change color). */
+.Overlay a:hover, .overlay a:focus {
+    background: #512D9D;
+    color:#E46C00;
+}
+
+/* This describes the (x) button on the hamburger menu, which is positioned on the top-right of the menu */
+.closebtn {
+    position: absolute;
+    z-index: 2;
+    right: 45px;
+    font-size: 70px !important; /* Override the font-size specified earlier (36px) for all navigation links */
+}
+
+/* This code makes the screen/website responsive across different media sources, meaning that it will change based on the type of platform the website is on*/
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .closebtn {
+        font-size: 40px !important;
+        top: 15px;
+        right: 35px;
+    }
+}
+  /* The #Team and the #Home codes are buttons for the hamburger menu. These are their dimensions and the spacing each one has. */
+#Team {
+padding-top: 20%;
+padding-left: 15%;
+float: right;
+padding-right: 9%;
+padding-bottom: 20%;
+}
+#Home {
+padding-left: 5%;
+padding-right: 15%;
+float: left;
+padding-top: 20%;
+padding-bottom: 20%;
+}
+/* These are the dimensions for the person's picture, and the spacing they have. */
+#Photo {
+width: 50%;
+height: 50%;
+padding-bottom: 5%;	
+}
+/* These are the dimensions for the article pictures */
+.Bio-Info img {
+width: 650px;
+height: 230px;	
+}
+
+.col-md-6 {
+padding:0;
+margin: 0;
+}
+/* These are the specifications for our Bio story. This includes the font-family, the color of the font, and the alignment of the text.*/
+.Bio-Story {
+color:black ;
+text-align: left;
+ font-family: Oswald;
+ font-size: 4em;
+}
+
+@media (min-width: 992px)
+ {
+	.col-md-6 {
+    width: 44%; 
+}
+}

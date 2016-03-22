@@ -1,0 +1,158 @@
+@font-face {
+	font-family: Brushed;
+	src: url("../FONTS/BRUSHED.TTF");
+}
+@font-face {
+	font-family: Roboto;
+	src: url("../FONTS/Roboto-Regular.ttf");
+}
+.nav-bar {
+	background-color: #512D9D;
+	width: 100%;
+	height: 95px;
+z-index: 0;
+}
+
+h1 {
+	letter-spacing: 4px;
+	padding-top: 20px;
+	color: #E46C00;
+	font-family: Brushed;
+	font-size: 60px;
+	text-align: center;
+}
+#Hamburger {
+margin-top: 28px;
+margin-left: 70px;
+width: 56px;
+height: 54px;
+z-index: 1;
+position: absolute;
+}
+#Hamburger:hover {
+  opacity: .8;
+  cursor: pointer;
+}
+h1 {
+	letter-spacing: 4px;
+	padding-top: 20px;
+	color: #E46C00;
+	font-family: Brushed;
+	font-size: 60px;
+	text-align: center;
+
+}
+h1 span:hover {
+ color: #F50057;
+}
+/* If you wanna change the background color change this */
+html {
+ background-color: #E2DCEB;	
+}
+
+body {
+    margin-top: -47px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+/* The Overlay (background) */
+.Overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */    
+    height: 0;
+    width: 100%;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 88px;
+    background-color: rgb(228,108,0); /*Orange fallback color */
+    background-color: rgba(228,108,0 0.9); /* Orange w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.Overlay-content {
+  font-size: 10em;
+    font-family: Brushed;
+    position: relative;
+    height: 100%; /* 100% width */
+    text-decoration: none;
+    
+}
+
+/* The navigation links inside the overlay */
+.Overlay a {
+    text-decoration: none;
+    color: #512D9D;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.Overlay a:hover, .overlay a:focus {
+    background: #512D9D;
+    color:#E46C00;
+}
+
+/* Position the close button (top right corner) */
+.closebtn {
+    position: absolute;
+    z-index: 2;
+    right: 45px;
+    font-size: 70px !important; /* Override the font-size specified earlier (36px) for all navigation links */
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .closebtn {
+        font-size: 40px !important;
+        top: 15px;
+        right: 35px;
+    }
+}
+  /* Don't touch part of Hamburger menu Overlay */
+#Team {
+padding-top: 20%;
+padding-left: 15.1%;
+float: right;
+padding-right: 16%;
+padding-bottom: 20%;
+}
+#Home {
+padding-left: 15%;
+padding-right: 15%;
+float: left;
+padding-top: 20%;
+padding-bottom: 20%;
+}
+/* Your Profile */
+#Photo {
+width: 650px;
+height: 480px;	
+}
+/* Your Articles Pics */
+.Bio-Info img {
+width: 650px;
+height: 230px;	
+}
+.col-md-6 {
+padding:0;
+margin: 0;
+}
+
+.Bio-Story {
+color:black ;
+text-align: left;
+ font-family: Oswald;
+ font-size: 4em;
+}
+
+@media (min-width: 992px)
+ {
+	.col-md-6 {
+    width: 44%; 
+}
+}
