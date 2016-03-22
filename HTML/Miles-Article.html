@@ -2,7 +2,8 @@
 <html lang="en">
 <!-- Social Share Kit JS -->
 <script type="text/javascript" src="../JAVASCRIPT/social-share-kit.js"></script>
- 
+ <!-- Hamburger Menu JS-->
+<script type="text/javascript" src="../JAVASCRIPT/btn.js"></script>
 <script type="text/javascript">
 SocialShareKit.init()
 
@@ -10,11 +11,23 @@ SocialShareKit.init()
   <!-- Social Share Kit CSS -->
 	<link rel="stylesheet" href="../CSS/social-share-kit.css" type="text/css">
 	<!-- Miles CSS -->
-  <link rel="stylesheet" type="text/css" href="../CSS/Miles-Article.css">
-       <title> The Vitruvian </title>
-		  	   	<div class="nav-bar"> 
+ <link rel="stylesheet" type="text/css" href="../CSS/Miles-Article.css">
+      <title> The Vitruvian </title>
+      	   	<div class="nav-bar">
+                  <div id="myNav" class="Overlay">
 
-		  	 		<h1> <a href="../index.html"> <span>  The Vitruvian </span> </a> </h1> </div>
+  <!-- Button to close the overlay navigation -->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                  <div class="Overlay-content">
+                  <a id="Home" href="../index.html"> Home </a>
+                  <a id="Team"href="../HTML/Musa-Article.html"> Team </a>
+                  </div>
+                        </div>
+                         <img id ="Hamburger" src="../IMAGES/Hamburger-Menu.png" onclick="openNav()"/>
+      				<h1>  <a href="../index.html"> <span>  The Vitruvian </span> </a> </h1>
+      	    </div>  
+
 
 			 			<img src="../IMAGES/Miles_Article_Pic1.png"/>
 		  	 			<div class="Article-Header"> 

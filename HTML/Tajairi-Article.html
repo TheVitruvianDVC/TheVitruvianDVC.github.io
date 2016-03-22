@@ -2,21 +2,30 @@
 <html lang="en">
 <!-- Social Share Kit JS -->
 <script type="text/javascript" src="../JAVASCRIPT/social-share-kit.js"></script>
-
-
-  <script type="text/javascript">
+<script type="text/javascript" src="../JAVASCRIPT/btn.js"></script>
+<script type="text/javascript">
 SocialShareKit.init()
 
 </script>
   <!-- Social Share Kit CSS -->
 	<link rel="stylesheet" href="../CSS/social-share-kit.css" type="text/css">
-	<!-- Tajairi CSS -->
-	<link rel="stylesheet" type="text/css" href="../CSS/Tajairi-Article.css">
+	 <!-- Chases CSS -->
+  <link rel="stylesheet" type="text/css" href="../CSS/Chase-Article.css">
       <title> The Vitruvian </title>
-		  	   	<div class="nav-bar"> 
+      	   	<div class="nav-bar">
+                  <div id="myNav" class="Overlay">
 
-		  	 		<h1> <a href="../index.html"> <span>  The Vitruvian </span> </a> </h1> </div>
+  <!-- Button to close the overlay navigation -->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
+                  <div class="Overlay-content">
+                  <a id="Home" href="../Index.html"> Home </a>
+                  <a id="Team"href="../HTML/Musa-Article.html"> Team </a>
+                  </div>
+                        </div>
+                         <img id ="Hamburger" src="../IMAGES/Hamburger-Menu.png" onclick="openNav()"/>
+      				<h1>  <a href="../index.html"> <span>  The Vitruvian </span> </a> </h1>
+      	    </div>  
 			 			<img src="../IMAGES/Tajairi_Article_Pic1.jpg"/>
 		  	 			<div class="Article-Header"> 
 		  	 				<div class="Article-Header-Info">
